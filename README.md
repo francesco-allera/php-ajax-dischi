@@ -14,4 +14,4 @@ Practicing more advanced notions of PHP (include, include_once, require, require
 
 Print a dozen music records on the screen through the use of AJAX: when the page loads ajax will ask through a call for the records to php and print them. Through another ajax call, filter the albums by genre
 
-[See the page](https://php-ajax-dischi.herokuapp.com/)
+[See the page](https://php-ajax-disks.herokuapp.com/)
