@@ -1,0 +1,80 @@
+@import "./partials/_colors";
+@import "./partials/_commons";
+
+
+header {
+    $height: 70px;
+    height: $height;
+    background: $c-bg-secondary;
+
+    .container {
+        height: $height;
+        justify-content: flex-start;
+        gap: 1rem;
+
+        img {
+            height: 50px;
+            margin-right: 1rem;
+        }
+
+        label {
+            color: $c-font-1;
+        }
+    }
+}
+
+main {
+    padding: 100px 0;
+
+    .container {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        h1 {
+            color: $c-font-1;
+            font-size: 3rem;
+            padding-top: 3rem;
+            text-align: center;
+        }
+
+        .cd {
+            background: $c-bg-secondary;
+            height: 420px;
+            flex-basis: 250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 1rem 1.5rem;
+            text-align: center;
+            border-radius: 6px;
+            position: relative;
+
+            img {
+                max-width: 100%;
+                aspect-ratio: 1/1;
+                border-radius: 2px;
+            }
+
+            h3 {
+                margin: 20px 0;
+                color: $c-font-1;
+                font-size: 1.4rem;
+                height: 100px;
+                text-transform: uppercase;
+            }
+
+            .bottom {
+                color: $c-font-2;
+                position: absolute;
+                bottom: 2rem;
+
+                .author {
+                    font-size: 1.25rem;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+}

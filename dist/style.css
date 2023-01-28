@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background: #1e2d3b;
+}
+
+header, main {
+  width: 100%;
+}
+
+select, option {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 70px;
+  background: rgb(46, 58, 70);
+}
+header .container {
+  height: 70px;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+header .container img {
+  height: 50px;
+  margin-right: 1rem;
+}
+header .container label {
+  color: #fff;
+}
+
+main {
+  padding: 100px 0;
+}
+main .container {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+main .container h1 {
+  color: #fff;
+  font-size: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+main .container .cd {
+  background: rgb(46, 58, 70);
+  height: 420px;
+  flex-basis: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  border-radius: 6px;
+  position: relative;
+}
+main .container .cd img {
+  max-width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2px;
+}
+main .container .cd h3 {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 1.4rem;
+  height: 100px;
+  text-transform: uppercase;
+}
+main .container .cd .bottom {
+  color: #b2b2b2;
+  position: absolute;
+  bottom: 2rem;
+}
+main .container .cd .bottom .author {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
